@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body {
+        width: 530px;
+      }
+      .header {
+        color: #666;
+        background-color: #eee;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+      }
+      .setting-container {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .setting-content {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+      }
+      .url-label {
+        color: #666;
+      }
+      .url-input {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 2px 4px;
+        font-size: small;
+        color: #666;
+      }
+      .title-label {
+        color: #666;
+      }
+      .title-input {
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        padding: 2px 4px;
+        font-size: small;
+        color: #666;
+      }
+      .setting-delete {
+        border: 1px solid #ccc;
+        padding: 3px 10px;
+        color: #666;
+        background-color: lightgray;
+      }
+      .add-setting {
+        margin-top: 10px;
+        padding: 5px 10px;
+        border: 1px solid #ccc;
+        color: #666;
+        background-color: lightgray;
+      }
+      .add-setting:hover {
+        cursor: pointer;
+        opacity: 0.8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Title Morph</h1>
+    </div>
+    <div class="setting-container"></div>
+    <button class="add-setting">Add Setting</button>
+    <script src="setting.js"></script>
+  </body>
+</html>
